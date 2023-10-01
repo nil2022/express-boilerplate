@@ -1,0 +1,35 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for expressjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install express mongoose nodemon dotenv jsonwebtoken --save",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "jsonwebtoken",
+    "nodemon",
+    "dotenv"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nil2022/express-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nil2022/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nil2022/express-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.3",
+    "nodemon": "^3.0.1"
+  }
+}
