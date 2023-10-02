@@ -7,4 +7,6 @@ let middleware = (req, res, next) => {
 }
 
 /******* EXPORT MIDDLEWARE **********/
-module.exports = { middleware }
+module.exports = { 
+  middleware 
+}
