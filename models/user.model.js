@@ -1,3 +1,5 @@
+// USER MODEL
+
 /******** IMPORT MONGOOSE ******/
 const mongoose = require('mongoose');
 
